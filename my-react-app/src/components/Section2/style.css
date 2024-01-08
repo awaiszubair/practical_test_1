@@ -1,0 +1,46 @@
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 0px 0px 30px 30px;
+background: radial-gradient(122.71% 245.32% at 50% -145.32%, #9ACBFF 0%, #041E2D 85.46%, #041E2D 100%);
+}
+.main_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 936px;
+   
+}
+.s_text h1,p {
+    text-align: center;
+    font-family: Heebo;
+    background: linear-gradient(92deg, #FFF 9.82%, rgba(255, 255, 255, 0.00) 160.12%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.mail_input {
+    border-radius: 48px;
+border: 0.1px solid rgba(255, 255, 255, 0.10);
+padding-left: 35px;
+width: 534px;
+border: none;
+background: rgba(255, 255, 255, 0.10);
+}
+.mail_btn{
+    height: 64px;
+padding: 16px 32px;
+border-radius: 48px;
+background: #21409A;
+border: none;
+margin-left: -5rem;
+}
+.mail_box{
+    display: inline-flex;
+    margin-top: 3rem;
+}

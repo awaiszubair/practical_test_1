@@ -1,0 +1,45 @@
+.l-img{
+    padding-bottom: 24px;
+}
+.my_text{
+   text-align: center;
+   width: 80%;
+   margin-left: 110px;
+   margin-top: 150px;
+}
+.my_text h1{
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 68px
+}
+.my_text h1,p {
+    font-family: Heebo;
+    background: linear-gradient(92deg, #FFF 9.82%, rgba(255, 255, 255, 0.00) 160.12%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+ul li{
+    font-family: Heebo;
+}
+
+.my_button{
+border-radius: 79px;
+border: 2px solid #BDCEE0;
+padding: 10px 20px;
+width: 126px;
+margin-top: 105px;
+margin-left: 400px;
+background: #091E2D;
+text-align: center;
+}
+.animate__fadeInLeft{
+    animation-duration: 1s;
+}
+.animate__fadeInUp{
+    animation-duration:1s
+}
+.animate__fadeInDown{
+    animation-duration: 1s;
+}

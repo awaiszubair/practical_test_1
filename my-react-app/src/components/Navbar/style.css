@@ -1,0 +1,51 @@
+.nav{
+    width: 1440px;
+    height: 80px;
+    flex-shrink: 0;
+
+/* Style */
+
+border-bottom: 1px solid rgba(189, 206, 224, 0.10);
+
+background: linear-gradient(90deg, rgba(4, 30, 45, 0.01) -0.04%, rgba(4, 30, 45, 0.01) 102.08%);
+
+backdrop-filter: blur(12px);
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
+.menus ul li{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 24px;
+}
+.logo1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.signin_link{
+    padding-right:20px
+}
+.signup_button{
+    padding: 14px 24px;
+    border-radius: 28px;
+background: #B70A80;
+border: none;
+color: #FFF;
+
+text-align: center;
+font-family: Heebo;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+}
+.register_own{
+padding-top: 16px;
+padding-bottom: 16px;
+}
