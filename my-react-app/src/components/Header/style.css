@@ -23,6 +23,9 @@
 ul li{
     font-family: Heebo;
 }
+.landing_mobile{
+    display: none;
+}
 
 .my_button{
 border-radius: 79px;
@@ -42,4 +45,63 @@ text-align: center;
 }
 .animate__fadeInDown{
     animation-duration: 1s;
+}
+
+
+@media screen and (min-width: 690px) and (max-width: 1023px) {
+    .t_1 .t_2{
+        width: 20%;
+    }
+    .landing_mobile{display: none;}
+    .empty{display: none;}
+   .left_side_img{
+    width: 20%;
+   }
+   .my_button{
+    margin-left: 200px;
+   }
+   .my_text{
+    width: 100%;
+    margin-left: 0px;
+   }
+   .b_1{width: 30%;}
+   .b_3{width: 30%;}
+   .b_2{
+    width: 40%;
+   }
+   .mid_side{
+    width: 60%;
+   }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 270px) and (max-width: 689px) {
+    .landing_mobile{
+        display: block;margin-top: -5rem;
+        /* border: 1px solid black; */
+        border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+   
+    }
+    .deks_header{display: none;}
+    .m_img{margin-bottom: 1rem;}
+    .img_own{width: 100%;height: 100%;}
+    h1{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 68px
+    }
+    h1,p {
+        font-family: Heebo;
+        background: linear-gradient(92deg, #FFF 9.82%, rgba(255, 255, 255, 0.00) 160.12%);
+        background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
 }

@@ -3,7 +3,7 @@ import './style.css'
 
 function Section2() {
     return (
-        <div className='section2'>
+        <div className='section2' >
             <div className='main_2'>
                 <div className='s_text'>
                     <h1>Join the private <br /> exclusive access</h1>

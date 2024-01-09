@@ -44,3 +44,20 @@ margin-left: -5rem;
     display: inline-flex;
     margin-top: 3rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 270px) and (max-width: 689px) {
+    .s_text h1{line-height: 2.3rem;}
+  /* .section2{margin-top: -2rem;background-color: red;} */
+  .mail_box{width: 78%;}
+}
